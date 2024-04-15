@@ -14,7 +14,7 @@ const XPagination = () => {
           
           setData(res.data);
         } catch (error) {
-          alert('failed to get data');
+          alert('failed to fetch data');
         }
       };fetchData();
     }, []);
